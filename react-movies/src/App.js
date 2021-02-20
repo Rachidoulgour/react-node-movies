@@ -9,9 +9,10 @@ function App() {
   return (
     <BrowserRouter>
       <div>
-      <Switch>
-      <Route path='/signup' component={Signup} exact />
-      </Switch>
+        <Switch>
+        <Route path='' component={Signup} exact />
+          <Route path='/signup' component={Signup} exact />
+        </Switch>
       </div>
     </BrowserRouter>
     );
