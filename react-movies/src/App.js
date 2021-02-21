@@ -1,8 +1,9 @@
 import React from 'react';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
-import Signup from './views/Signup';
-
 import './App.css';
+import Signup from './views/Signup';
+import Login from './views/Login';
+import Home from './views/Home';
 
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
     <BrowserRouter>
       <div>
         <Switch>
-        <Route path='' component={Signup} exact />
+          <Route path='/' component={Home} exact />
+          <Route path='/login' component={Login} exact />
           <Route path='/signup' component={Signup} exact />
         </Switch>
       </div>
