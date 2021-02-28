@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Rachidoulgour/react-node-movies/issues"
   },
-  "homepage": "https://github.com/Rachidoulgour/react-node-movies#readme"
+  "homepage": "https://github.com/Rachidoulgour/react-node-movies#readme",
+  "dependencies": {
+    "mongoose": "^5.11.18"
+  }
 }
