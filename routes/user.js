@@ -1,5 +1,7 @@
 const express = require('express');
 const api = express.Router();
 
+const UserController = require('../controllers/users');
 
-api.post('/signup');
+
+api.post('/signup', UserController.saveUser);
