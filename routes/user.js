@@ -5,3 +5,4 @@ const UserController = require('../controllers/users');
 
 
 api.post('/signup', UserController.saveUser);
+api.post('/login', UserController.login);
